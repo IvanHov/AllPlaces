@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on",
+    "editor.rulers": [],
+    "editor.scrollBeyondLastLine": false,
+    "[dart]": {
+        "editor.rulers": [],
+        "editor.formatOnSave": false
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#5c5b5bd6"
+    }
+}

@@ -1,0 +1,6 @@
+auth:
+  - sendOtp:
+  - verifyOtp:
+  - updateUserName:
+  - signOut:
+  - validateSession:

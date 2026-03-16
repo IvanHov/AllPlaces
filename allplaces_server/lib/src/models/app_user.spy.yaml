@@ -1,0 +1,18 @@
+### Represents a user in the system.
+class: AppUser
+table: app_user
+
+fields:
+  ### Phone number in format +998XXXXXXXXX.
+  phone: String
+  ### User display name, null for new users.
+  name: String?
+  ### When the user was created.
+  createdAt: DateTime
+  ### When the user was last updated.
+  updatedAt: DateTime
+
+indexes:
+  app_user_phone_idx:
+    fields: phone
+    unique: true

@@ -1,0 +1,20 @@
+### Represents an active user session.
+class: UserSession
+table: user_session
+
+fields:
+  ### Reference to the user.
+  userId: int
+  ### Session token.
+  token: String
+  ### When the session expires.
+  expiresAt: DateTime
+  ### When the session was created.
+  createdAt: DateTime
+
+indexes:
+  user_session_token_idx:
+    fields: token
+    unique: true
+  user_session_user_id_idx:
+    fields: userId

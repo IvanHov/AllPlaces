@@ -1,0 +1,47 @@
+# ignore: package_names
+name: AllPlaces
+description: Explore nature locations of Uzbekistan!
+publish_to: 'none'
+version: 1.0.0+80
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  data:
+    path: data
+  domain:
+    path: domain
+  flutter_platform_widgets: ^9.0.0
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  get_it: ^8.2.0
+  package_info_plus: ^8.3.1
+  modal_bottom_sheet: ^3.0.0
+  go_router: ^16.2.1
+  cached_network_image: ^3.4.1
+  flutter_map: ^8.2.1
+  latlong2: ^0.9.1
+  gpx: ^2.3.0
+  pdfx: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  intl_utils: ^2.8.11
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/locations.json
+    - assets/collections.json
+    - assets/icons/
+    - assets/tracks/
+    - assets/documents/
+flutter_intl:
+  enabled: true

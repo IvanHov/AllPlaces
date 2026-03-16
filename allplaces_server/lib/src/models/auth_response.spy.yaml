@@ -1,0 +1,15 @@
+### Response returned from OTP verification.
+class: AuthResponse
+serverOnly: false
+
+fields:
+  ### Whether the operation was successful.
+  success: bool
+  ### Session token for authenticated requests.
+  token: String?
+  ### User ID.
+  userId: int?
+  ### User name, null if new user.
+  userName: String?
+  ### Error message if failed.
+  error: String?

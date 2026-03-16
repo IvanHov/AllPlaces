@@ -1,0 +1,17 @@
+### Stores OTP codes for phone verification.
+class: OtpCode
+table: otp_code
+
+fields:
+  ### Phone number the OTP was sent to.
+  phone: String
+  ### The OTP code.
+  code: String
+  ### When the OTP expires.
+  expiresAt: DateTime
+  ### When the OTP was created.
+  createdAt: DateTime
+
+indexes:
+  otp_code_phone_idx:
+    fields: phone

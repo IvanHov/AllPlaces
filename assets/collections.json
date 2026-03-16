@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name_ru": "Рядом с Ташкентом",
+    "name_en": "Near Tashkent",
+    "name_uz": "Toshkent yaqinida",
+    "locations_id": ["6892ea1d-1e24-4656-8bcf-1762bb8042ae","8412ac7b-6562-4066-93fc-56586b198d37","17f61328-24db-4ebf-be52-5bc427af923a","b5d9dade-8ed9-4343-b127-6a9bf9f96a2d","26618166-59e9-462a-af18-5610a71adc3d"]
+  },
+  {
+    "id": "2",
+    "name_ru": "Рядом с Самаркандом",
+    "name_en": "Near Samarkand",
+    "name_uz": "Samarkand yaqinida",
+    "locations_id": ["b1b05f4b-ac01-49de-a163-d4c0e7ce48ab","f3925c36-bb50-44f8-9fcc-d56f128e39c7","19ec332a-1d70-4d59-af52-acd1174a1240","b6f7da85-4da7-4249-ab3a-43bc42adaf72"]
+  },
+  {
+    "id": "3",
+    "name_ru": "В облаках",
+    "name_en": "Top Peak",
+    "name_uz": "Bulutlarda",
+    "locations_id": ["a754d6d4-81a1-4d53-bc71-3503ae0bb887","b1b05f4b-ac01-49de-a163-d4c0e7ce48ab","ccb64b46-2941-4314-8500-529ad73d70b3","17e0c5b2-a7c3-440b-bf73-4ef31dea3016"]
+  },
+  {
+    "id": "4",
+    "name_ru": "Для новичков",
+    "name_en": "Newbie",
+    "name_uz": "Yangi boshlovchi",
+    "locations_id": ["26618166-59e9-462a-af18-5610a71adc3d","75fcd0e1-8324-4d3d-b096-ec7184dd9b3a","19ec332a-1d70-4d59-af52-acd1174a1240","4e324347-76dd-48d2-b202-4bd08fcdcfaf"]
+  }
+]
